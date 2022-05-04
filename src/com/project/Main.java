@@ -129,7 +129,7 @@ public class Main {
 
         // JSON READ
         {
-            Object obj = new JSONParser().parse(new FileReader("JSONOutput.json"));
+            Object obj = new JSONParser().parse(new FileReader("outputJSON.json"));
 
             JSONObject jo = (JSONObject) obj;
 
